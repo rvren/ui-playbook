@@ -1,0 +1,137 @@
+.profile-container {
+  margin: 2rem;
+  padding: 20px 4px 10px 0px;
+  margin-bottom: -40px;
+  min-height: 100vh;
+}
+
+.profile-container--title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.profile-container--stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 12px;
+}
+
+.profile-container--stats--copy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #FFF8E1;
+  padding: 4px;
+  margin-top: 4px;
+  margin: -4px auto;
+  width: 100%;
+}
+
+.profile-container--profile-details--status {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.profile-container--stats--item--title {
+  font-weight: 600;
+}
+
+.profile-container--stats--copy--value {
+  font-weight: 600;
+}
+
+.profile-container--stats--item--value {
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.profile-container--progress {
+  width: 100%;
+  min-width: 100px;
+  margin-top: 22px;
+  height: 15px;
+  border:1px solid #4bb357;
+  border-radius: 20px;
+  margin-bottom: 0px;
+}
+
+.profile-container--profile-details--value {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.profile-container--progress-text {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.icon {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.panel-default>.panel-heading {
+  color: #333;
+  background-color: #FFFFFF;
+  border-bottom-color: #ddd;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.status-complete--green {
+  color: #4bb357;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.status-complete--orange {
+  color: #FF9800;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small>a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.status-complete--dropdown {
+  float: right;
+  color: #AAAAAA;
+  font-size: 36px;
+  margin-top: -12px;
+}
+
+.profile-container--faqs {
+  margin-top: 30px;
+  padding: 8px;
+}
+
+.profile-container--faqs-question {
+  font-weight: 600;
+}
+
+.profile-container--faqs-answer {
+  font-weight: 200;
+}
+
+.custom-panel {
+  margin-top: -24px;
+  border-radius: 0px;
+}
+
+.form-hint-text {
+  font-size: 12px;
+  font-weight: 200;
+  color: #AAAAAA;
+  margin-bottom: 24px;
+}
